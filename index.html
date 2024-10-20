@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noturna</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <img src="" alt="logoNoturna">
+
+        <div>
+            <button class="buttomHeader">Seja um Franqueado</button>
+            <button class="buttomHeader">Area do Cliente</button>
+            <button class="buttomHeader">Academias</button>
+            <button class="buttomHeader" id="buttomBuscarAcademia">Buscar Academia</button>
+            <button onclick="verMenu()" id="buttomNav">⚙</button>
+        </div>
+    </header>
+
+    <nav id="menuNav">
+        <button onclick="sairNav()">❌</button>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="academias/Academias.html">Academias</a>
+            </li>
+            <li>
+                <a href="espacoCliente/espacoCliente.html">Espaço do Cliente</a>
+            </li>
+            <li>
+                <a href="">Seja um Franqueado</a>
+            </li>
+            <li>
+                <a href="">Noturna News</a>
+            </li>
+            <li>
+                <a href="">Planos</a>
+            </li>
+            <li>
+                <a href="">Suporte</a>
+            </li>
+            <li>
+                <a href="">Sustentabilidade</a>
+            </li>
+            <li>
+                <a href="">Nossa Historia</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="slideIndex">
+            <img src="designs/index/BANNER-SITE-DESKTOP-VAZA-DO-SOFÁ_FOTONOVA.jpg"
+                alt="Foto de frase multivacional com pessoa treinando">
+        </section>
+
+        <section id="indexSection">
+            <div class="titulo">
+                <h1>Encontre a academia mais <spans class="spans">próxima</spans>!</h1>
+            </div>
+            <img src="designs/index/indexFotoFrenteAcdemia.jpg" alt="Foto de frase multivacional com pessoa treinando">
+            <a href="" id="BuscarAcemiaproxima"> Escolher Academia <span class="spans">🔍</span> </a>
+        </section>
+
+        <section id="tabelaPreco">
+            <div class="titulo">
+                <h2>Venha Treinar na <span class="spans">Melhor Rede de Academias da America Latina</h2>
+                <p>Os melhores equipamentos e infraestrutura com mensalidades acessíveis.</p>
+            </div>
+        </section>
+
+        <section id="experienciaNoturna">
+            <div class="titulo">
+                <h2>Experiência <span class="spans">Noturna</span></h2>
+            </div>
+            <div id="container-experiencia">
+                <div class="box-experiencia">
+                    <img src="designs/index/equipamentos-alto-padrao.jpg" alt="Box img">
+                    <p>Equipamentos de Alto Padrão</p>
+                </div>
+                <div class="box-experiencia">
+                    <img src="designs/index/salasEXclusivas.jpg" alt="Box img">
+                    <p>Salas Exclusivas de Aulas Coletivas</p>
+                </div>
+                <div class="box-experiencia">
+                    <img src="designs/index/musculacaoCardio.jpg" alt="Box img">
+                    <p>Áreas de Musculação e Cárdio</p>
+                </div>
+            </div>
+            <button class="buttomHeader" id="buttomBuscarAcademia">Buscar Academia</button>
+        </section>
+
+        <section id="aulas-treinos">
+            <div class="titulo">
+                <h2>Aulas e treinos <span class="spans">exclusivos!</span></h2>
+            </div>
+            <div id="container-treinos">
+                <div class="box-aulas">
+                    <img src="designs/index/pessoas-dancando-academia.jpg" alt="img alternativa">
+                    <a class="link-treinos" href="">Dança</a>
+                    <div class="info-aulas">
+                        <ul id="ul-container-treinos">
+                            <li>
+                                <p>⏳</p>
+                                <p>Duração</p>
+                                <span>45/60min</span>
+                            </li>
+                            <li>
+                                <p>🔋</p>
+                                <p>Itencidade</p>
+                                <span>Alta</span>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nam fuga expedita at fugit
+                            velit, aliquid ipsam deleniti neque. Totam incidunt error impedit consectetur perspiciatis
+                            similique, natus aliquid quasi molestiae?</p>
+                    </div>
+                </div>
+                <div class="box-aulas">
+                    <img src="designs/Index/crossfit.jpg" alt="img alternativa">
+                    <a class="link-treinos" href="">Crossfit</a>
+                    <div class="info-aulas">
+                        <ul id="ul-container-treinos">
+                            <li>
+                                <p>⏳</p>
+                                <p>Duração</p>
+                                <span>45/60min</span>
+                            </li>
+                            <li>
+                                <p>🔋</p>
+                                <p>Itencidade</p>
+                                <span>Alta</span>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nam fuga expedita at fugit
+                            velit, aliquid ipsam deleniti neque. Totam incidunt error impedit consectetur perspiciatis
+                            similique, natus aliquid quasi molestiae?</p>
+                    </div>
+                </div>
+                <div class="box-aulas">
+                    <img src="designs/Index/artesMacias.jpg" alt="img alternativa">
+                    <a class="link-treinos" href="">Artes Marciais</a>
+                    <div class="info-aulas">
+                        <ul id="ul-container-treinos">
+                            <li>
+                                <p>⏳</p>
+                                <p>Duração</p>
+                                <span>45/60min</span>
+                            </li>
+                            <li>
+                                <p>🔋</p>
+                                <p>Itencidade</p>
+                                <span>Alta</span>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nam fuga expedita at fugit
+                            velit, aliquid ipsam deleniti neque. Totam incidunt error impedit consectetur perspiciatis
+                            similique, natus aliquid quasi molestiae?</p>
+                    </div>
+                </div>
+            </div>
+            <button id="buttomBuscarAcademia" class="buttomHeader">Ver Todas as Aulas e Treinos</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <img id="logo-footer" src="" alt="logoNoturna">
+        <hr>
+        <h3>Siga a Noturna</h3>
+        <div id="redes-sociais">
+            <img class="radius-sociais" src="designs/Index/logoFacebook.jpg" alt="">
+            <img class="radius-sociais" src="designs/Index/logoInstagram.jpg" alt="">
+            <img class="radius-sociais" src="designs/Index/logoYoutube.jpg" alt="">
+            <img class="radius-sociais" src="designs/Index/logoTiktok.jpg" alt="">
+            <img class="radius-sociais" src="designs/Index/logoSpotify.jpg" alt="">
+            <img class="radius-sociais" src="designs/Index/logoX.jpg" alt="">
+        </div>
+        <hr>
+        <div id="container-footer">
+            <div class="saberMais-footer">
+                <h4>Instiruncional</h4>
+                <ul>
+                    <a href="">
+                        <li>Sobre Conceito</li>
+                    </a>
+                    <a href="">
+                        <li>Ivestidores</li>
+                    </a>
+                    <a href="">
+                        <li>Central de Ajuda</li>
+                    </a>
+                    <a href="">
+                        <li>Fale Conosco</li>
+                    </a>
+                    <a href="">
+                        <li>Edital Noturna</li>
+                    </a>
+                    <a href="">
+                        <li>Aviso de Privacidade</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="saberMais-footer">
+                <h4>Planos</h4>
+                <ul>
+                    <a href="">
+                        <li>Planos</li>
+                    </a>
+                    <a href="">
+                        <li>Contratos</li>
+                    </a>
+                    <a href="">
+                        <li>Planos Corporativos</li>
+                    </a>
+                    <a href="">
+                        <li>Noturna Coach - Consultor Online de Treino</li>
+                    </a>
+                    <a href="">
+                        <li>Noturna Energy</li>
+                    </a>
+                    <a href="">
+                        <li>Notrna Nutri</li>
+                    </a>
+                    <a href="">
+                        <li>Noturna Supps</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="saberMais-footer">
+                <h4>Corporativo</h4>
+                <ul>
+                    <a href="">
+                        <li>Imprensa</li>
+                    </a>
+                    <a href="">
+                        <li>Quero ser Franqueado</li>
+                    </a>
+                    <a href="">
+                        <li>Divulgue sua marca</li>
+                    </a>
+                    <a href="">
+                        <li>Indique um Ponto</li>
+                    </a>
+                    <a href="">
+                        <li>Trabalhe Conosco</li>
+                    </a>
+                    <a href="">
+                        <li>Transparencia Salarial e Criterios Remuneratorios Noturna</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
